@@ -15,3 +15,5 @@ console.log("total2", total2);
 
 const total3 = addMultiplePerametter(total, total2);
 console.log("threeeeeeeeee", total3);
+
+
