@@ -4,14 +4,21 @@ const mobile = {
   color: "gray",
 };
 
-console.log(mobile);
-mobile.price = 2000;
-let product = mobile.price;
+let updateMobile = mobile;
+updateMobile ='color'
+console.log(updateMobile);
 
-console.log(product);
-console.log(mobile);
+// when you know property------
+const priceCount = mobile.price;
+console.log(priceCount);
+// alternative-----------------
+const priceCount2 = mobile['price']
+console.log(priceCount2);
 
-const arrayA = [1, 23, 3, 45, 66];
-console.log(arrayA);
-arrayA.pop();
-console.log(arrayA);
+// Dynamic vabe object, properties, value khojar way-------------------------
+const getDynamicSearchPropertiesKeys = Object.keys(mobile);
+console.log(getDynamicSearchPropertiesKeys);
+const getDynamicSearchPropertiesValues = Object.values(mobile);
+console.log(getDynamicSearchPropertiesValues);
+const getDynamicSearchProperties = Object(mobile);
+console.log(getDynamicSearchProperties);
