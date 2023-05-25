@@ -4,7 +4,7 @@ function oddSum(number) {
     const index = i;
     const element = number[index];
     // console.log(element);
-    if (element % 2 !== 0) {
+    if (element % 2 == 0) {
       //   console.log(element);
       oddNumber.push(element);
     }
@@ -16,6 +16,6 @@ function oddSum(number) {
   return totalSum;
 }
 
-const numbers = [22, 33, 43, 24, 57];
+const numbers = [22, 333, 43, 24, 57];
 const total = oddSum(numbers);
 console.log("total sum", total);
