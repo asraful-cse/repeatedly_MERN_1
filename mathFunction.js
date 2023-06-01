@@ -11,4 +11,4 @@ console.log(Math.round(number1)); // 5
 const number2 = -5.5;
 console.log(Math.round(number2)); // -5
 
-console.log(Math.round(5.4), Math.round(-5.6)); // 5 -6
+console.log(Math.round(5.4), Math.round(-5.6)); // 5 -6 etc
