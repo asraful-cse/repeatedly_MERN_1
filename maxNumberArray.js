@@ -3,7 +3,7 @@ function maxNumber(numbers) {
   for (let i = 0; i < numbers.length; i++) {
     const index = numbers[i];
 
-    if (index < largest) {
+    if (index > largest) {
       largest = index;
     }
   }
