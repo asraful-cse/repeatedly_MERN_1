@@ -7,7 +7,7 @@ function maxNumber(numbers) {
       largest = index;
     }
 
-    // for minimum array of number-------------
+    // minimum array of number-------------
     // if (index < largest) {
     //   largest = index;
     // }
